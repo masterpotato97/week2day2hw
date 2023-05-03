@@ -1,0 +1,18 @@
+# Use the following list - [1,11,14,5,8,9]
+# problem one
+l_1 = [1,11,14,5,8,9]
+
+
+
+l_2= [num for num in l_1 if num < 10]
+
+print(l_2)
+
+#problem 2
+
+names1 = ['connor', 'connor', 'bob', 'connor', 'evan', 'max', 'evan', 'bob', 'kevin']
+
+names2 = [name.capitalize() for name in names1 if len(name) >= 4]
+
+print(names2)
+
